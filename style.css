@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy
+}
+
+/* div{
+    border: 2px dashed gray;
+
+} */
+
+.cointainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    height: 55px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: black;
+    
+}
+
+.menu li{
+    cursor: pointer;
+    transition: 300ms;
+    
+}
+
+.menu li:hover{
+    color: gray;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.header{
+    background-image: url('./img/fon.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.header h1{
+    font-size: 50px;
+    margin: 0;
+    color: orangered;
+}
+
+.header p{
+    margin: 0;
+    margin-bottom: 30px;
+    color: dimgray;
+}
+
+.btn{
+    padding: 5px 25px;
+    background: gray;
+    /* background: linear-gradient(180deg, rgba(112,25,131,1) 9%, rgba(138,63,152,1) 23%, rgba(112,45,139,1) 43%, rgba(99,22,106,1) 57%, rgba(150,19,158,1) 68%); */
+    border-radius: 20px;
+    color: whitesmoke;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: gold;
+    box-shadow: 0 0 30px gray;
+}
+
+.post img{
+    height: 150px;
+    width: 150px;
+    object-position: center;
+    object-fit: cover; /*местный фотошоп*/
+
+    
+
+    
+
+}
+
+.post{
+    display: flex;
+    align-items: center;
+}
+
+.posts {
+    margin-top: 25px;   
+    padding: 10px;
+}
+
+.post .info{
+    padding: 20px;
+}
+
+.post h2{
+    cursor: pointer;
+}
+
+
+.footer{
+    background: gray;
+    height: 150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
